@@ -14,7 +14,15 @@ class home extends Component {
 
                 <Animation />
 
-                    
+                    <div>
+                        <div className="title-name">
+
+                            {/** The name that you see at the center of the page with the title and social links */}
+
+                            <h1 style={{fontSize: '92px', opacity: '.6', fontWeight: 'bold', color: '#757575', textAlign: 'center'}}>Abdul Khaliq</h1>
+                                
+                    </div>
+                </div>
             </>
         )
     }
