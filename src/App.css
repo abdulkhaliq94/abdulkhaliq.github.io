@@ -295,3 +295,86 @@ html {
 
 /** ============================= End of Projects ============================================================================= */
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+/** ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/** ============================= Start of Contact ============================================================================ */
+
+.bg-contact {
+  background-color: black;
+  color: #ddd;
+  height: 80%;
+}
+
+.success-msg {
+    color: #57a773;
+    padding: 10px 15px;
+}
+
+.err-msg {
+    color: #EE6352;
+    padding: 10px 15px;
+}
+
+input[type=text]{
+    border: 3px solid #555;
+    opacity: 0.5;
+    padding: 18px;
+    letter-spacing: 0.5px;
+    border-radius: 100px;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+    opacity: 1;
+    padding: 18px;
+    background-color: lightgray;
+}
+
+input[type=email] {
+    border: 3px solid #555;
+    opacity: 0.5;
+    padding: 18px;
+    letter-spacing: 1px;
+    border-radius: 100px;
+}
+input[type=email]:focus {
+    border: 3px solid #555;
+    opacity: 1;
+    padding: 18px;
+    background-color: lightgray;
+}
+
+#message {
+    border: 3px solid #555;
+    opacity: 0.5;
+    padding: 18px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+}
+#message:focus {
+    border: 3px solid #555;
+    opacity: 1;
+    padding: 18px;
+    background-color: lightgray;
+}
+
+.labels {
+    float: left;
+    font-size: 16px;
+    color: #ddd;
+}
+
+#submit-btn {
+    border-radius: 100px;
+    width: 15%;
+    float: right;
+    background-color: lightblue;
+    color: black;
+    font-size: 18px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/** ============================= End of Contacts ============================================================================= */
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
