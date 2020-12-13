@@ -24,7 +24,28 @@ class home extends Component {
                                 Software Engineer | Web Developer
                                 </span>
 
+                            {/** Social media links to connect */}
                             
+                            <div className="social-links">
+
+                                {/** Linkedin link */}
+
+                                <a  href="https://www.linkedin.com/in/amkhaliq/" rel="noopener noreferrer" target="_blank">
+                                    <i className="fab fa-linkedin-in" id="linkedin" aria-hidden="true"/>
+                                </a>
+
+                                {/** Github link */}
+
+                                <a href="https://github.com/amkhaliq" rel="noopener noreferrer" target="_blank">
+                                    <i className="fab fa-github-alt" id="github" aria-hidden="true"/>
+                                </a>            
+
+                                {/** Slack link */}
+
+                                <a href="https://gamecode-hq.slack.com" rel="noopener noreferrer" target="_blank">
+                                    <i className="fab fa-slack" id="slack" aria-hidden="true"/>
+                                </a> 
+                        </div>
                     </div>
                 </div>
             </>
