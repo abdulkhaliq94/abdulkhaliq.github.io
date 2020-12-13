@@ -198,3 +198,18 @@ html {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    margin: auto;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: right;
+}
