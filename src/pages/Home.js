@@ -20,7 +20,11 @@ class home extends Component {
                             {/** The name that you see at the center of the page with the title and social links */}
 
                             <h1 style={{fontSize: '92px', opacity: '.6', fontWeight: 'bold', color: '#757575', textAlign: 'center'}}>Abdul Khaliq</h1>
-                                
+                                <span style={{color: '#000', opacity: "0.7", fontSize: '22px', padding: '1em'}}>
+                                Software Engineer | Web Developer
+                                </span>
+
+                            
                     </div>
                 </div>
             </>
