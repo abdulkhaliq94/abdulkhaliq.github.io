@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css'
 import Hacker from '../images/hacker.svg'
+import resume from './Resume.pdf'
 
 class about extends Component {
     render() {
@@ -29,7 +30,7 @@ class about extends Component {
 
                                             <div>
                                                 <button class="resume-btn">
-                                                    Resume
+                                                    <a id="resume-link" rel="noreferrer" href={resume} target="_blank">Resume</a>
                                                 </button>
                                             </div>
                             </div>
