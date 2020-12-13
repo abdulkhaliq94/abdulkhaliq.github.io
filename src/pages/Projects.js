@@ -79,7 +79,39 @@ class projects extends Component {
         } else if(this.state.activeTab === 1) {
             return(
                 <div className="grid-flow-horizontal">
-                    
+                    <div className="cards">
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle style={{color: 'black', height: '176px', background: 
+                            'url(https://www.stlucieco.gov/Home/ShowPublishedImage/1527/635744494515070000) center / cover'}}>
+
+                                </CardTitle>
+                            <CardText id="card-text">
+                                <p>Housing Prices</p>
+                                Housing prices was used as a kaggle challenge in data analysis class to predict the housing prices of an area.
+                                <br/><br/> Technologies used: Python | Jupyter | Jupyter Notebook
+                            </CardText>
+                            <CardActions border style={{textDecoration: "none"}}>
+                                <Button colored style={{textDecoration: "none"}} href="https://github.com/amkhaliq/housing_prices" target="_blank">Github</Button>
+                            </CardActions>
+                        </Card>
+                    </div>,
+
+                    <div className="cards">
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle style={{color: 'black', height: '176px', background: 
+                            'url(https://www.kindpng.com/picc/m/34-349389_payroll-png-transparent-png.png) center / cover'}}>
+
+                                </CardTitle>
+                            <CardText id="card-text">
+                                <p>NYC Payroll</p>
+                                NYC Payroll dataset was used in the project of citywide payroll.
+                                <br/><br/> Technologies used: Python | Jupyter | Jupyter Notebook
+                            </CardText>
+                            <CardActions border style={{textDecoration: "none"}}>
+                                <Button colored style={{textDecoration: "none"}} href="https://github.com/amkhaliq/nyc_payroll" target="_blank">Github</Button>
+                            </CardActions>
+                        </Card>
+                    </div>
                 </div>
                 
             )
