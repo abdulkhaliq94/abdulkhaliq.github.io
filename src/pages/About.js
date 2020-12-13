@@ -11,6 +11,12 @@ class about extends Component {
                                 <img src={Hacker} alt="_blank"/>
                             </div>
 
+                                        <div className="description">
+                                            <h1 style={{color: "black"}}>Mohammed 
+                                        <br />
+                                            Abdul Khaliq
+                                        </h1>      
+                            </div>
                         </div>
                 </div>
         )
