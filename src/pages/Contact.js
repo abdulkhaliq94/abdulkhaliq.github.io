@@ -33,7 +33,6 @@ class contact extends React.Component {
     this.setState({
         disabled: true
     });
-
     alert('Hey ' + this.state.name + ', Your message was sent successfully!')
   }
 
