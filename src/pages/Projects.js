@@ -118,7 +118,23 @@ class projects extends Component {
         } else if(this.state.activeTab === 2) {
             return(
                 <div className="grid-flow-horizontal">
-                    
+                    <div className="cards">
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle style={{color: 'white', height: '176px', background: 
+                            'url(https://miro.medium.com/max/840/0*M9rU2bK-frtQfjas.png) center / cover'}}>
+
+                                </CardTitle>
+                            <CardText id="card-text">
+                                <p>Fashion MNIST</p>
+                                    Fashion MNIST is a machine learning dataset to train the sample and predict the output.
+                                    <br/><br/> Technologies used: Python | Jupyter | Jupyter Notebook | Machine Learning
+                            </CardText>
+                            <CardActions border style={{textDecoration: "none"}}>
+                                <Button colored style={{textDecoration: "none"}} href="https://colab.research.google.com/drive/1SxV4T2LwKUBBNq_m4Z_Yol_f4j1jFiNB" target="_blank">Colab</Button>
+                                <Button colored style={{textDecoration: "none"}} href="https://colab.research.google.com/drive/1SxV4T2LwKUBBNq_m4Z_Yol_f4j1jFiNB" target="_blank">LiveDemo</Button>
+                            </CardActions>
+                        </Card>
+                    </div>
                 </div>
             )
         }
