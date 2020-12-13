@@ -26,6 +26,12 @@ class about extends Component {
                                             web development and artificial intelligence.
                                             </p>
                                         </div>
+
+                                            <div>
+                                                <button class="resume-btn">
+                                                    Resume
+                                                </button>
+                                            </div>
                             </div>
                         </div>
                 </div>
