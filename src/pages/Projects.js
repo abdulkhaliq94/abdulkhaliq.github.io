@@ -36,6 +36,44 @@ class projects extends Component {
                                 </CardActions>
                         </Card>
                     </div>
+                    
+                    <div className="cards">
+                        <Card shadow={5} style={{minWidth: '450', height: '100%', margin: 'auto'}}>
+                            <CardTitle style={{color: 'black', height: '176px', background: 
+                                'url(https://themewagon.com/wp-content/uploads/2017/02/04.-Developer.jpg) center / cover'}}>
+                                    
+                                </CardTitle>
+                            <CardText id="card-text">
+                                    <p>Portfolio</p>
+                                    	The portfolio website was built with a dynamic react JS library including react three
+                                         fiber to create some amazing animations and react router to navigate through different pages.
+                                         <br /><br />Technologies used: HTML | CSS | SASS | JAVASCRIPT | REACT | REACT-THREE-FIBER
+                                          | REACT-SCRIPTS | REACT-MDL | BOOTSTRAP
+                                </CardText>
+                            <CardActions border>
+                                    <Button colored style={{textDecoration: "none"}} href="https://www.github.com/amkhaliq/abdulkhaliq.github.io" target="_blank">Github</Button>
+                                    <Button colored>LiveDemo</Button>
+                                </CardActions>
+                        </Card>
+                    </div>
+
+                    <div className="cards">
+                        <Card shadow={5} style={{minWidth: '450', height: '100%', margin: 'auto'}}>
+                            <CardTitle style={{color: 'black', height: '176px', background: 
+                                'url(https://creativgoods.com/wp-content/uploads/2016/11/Abstract-background-for-design-mousepad.jpg) center / cover'}}>
+                                    
+                                </CardTitle>
+                        <CardText id="card-text">
+                                <p>Design Pad</p>
+                                A react app for dragging and dropping colors from a pad into a board.<br/><br></br> React was used to build this app
+                                for web development class.
+                                <br /><br /><br /> Technologies used: HTML | CSS | REACT
+                        </CardText>
+                        <CardActions border style={{textDecoration: "none"}}>
+                                <Button colored style={{textDecoration: "none"}} href="https://www.github.com/amkhaliq/design-pad" target="_blank">Github</Button>
+                            </CardActions>
+                        </Card>
+                    </div>
                 </div>
             )
         } else if(this.state.activeTab === 1) {
