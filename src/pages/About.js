@@ -16,6 +16,16 @@ class about extends Component {
                                         <br />
                                             Abdul Khaliq
                                         </h1>      
+
+                                        <div>
+                                            <p>
+                                            I am passionate about computers and software that
+                                            improves the lives of those around the world. I 
+                                            would love to be a part of that future. I am aspiring
+                                            to be a software engineer, but I also have interest in
+                                            web development and artificial intelligence.
+                                            </p>
+                                        </div>
                             </div>
                         </div>
                 </div>
