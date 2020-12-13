@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Tabs, Tab, Cell, Grid} from 'react-mdl'
 
 class projects extends Component {
     constructor(props) {
@@ -9,9 +10,24 @@ class projects extends Component {
         }
     }
 
-    switchTabs = () => {
+    render() {
         return(
-            <h1>Projects page</h1>
+            <div className="tabs">
+                <Tabs activeTab={this.state.activeTab} 
+                    onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
+                        <Tab id="tabs">React</Tab>
+                        <Tab id="tabs">Python</Tab>
+                        <Tab id="tabs">Machine Learning</Tab>
+                    </Tabs>
+
+                    <Grid>
+                        <Cell col={12}>
+                            <div className="content">
+                                {this.switchTabs()}
+                            </div>
+                        </Cell>
+                    </Grid>
+            </div>
         )
     }
 }
