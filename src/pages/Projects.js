@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Tabs, Tab, Cell, Grid} from 'react-mdl'
+import {Tabs, Tab, Cell, Grid, Card, CardTitle, CardText, Button, CardActions} from 'react-mdl'
 
 class projects extends Component {
     constructor(props) {
@@ -7,6 +7,29 @@ class projects extends Component {
 
         this.state = {
             activeTab: 0
+        }
+    }
+
+    switchTabs = () => {
+        if(this.state.activeTab === 0) {
+            return (
+                <div className="grid-flow-horizontal">
+                    
+                </div>
+            )
+        } else if(this.state.activeTab === 1) {
+            return(
+                <div className="grid-flow-horizontal">
+                    
+                </div>
+                
+            )
+        } else if(this.state.activeTab === 2) {
+            return(
+                <div className="grid-flow-horizontal">
+                    
+                </div>
+            )
         }
     }
 
