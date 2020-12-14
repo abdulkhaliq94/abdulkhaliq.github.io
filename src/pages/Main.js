@@ -7,11 +7,10 @@ import Contact from './Contact';
 
 const Main = () => (
     <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/Home" component={Home} />
         <Route path="/About" component={About} />
         <Route path="/Projects" component={Projects} />
         <Route path="/Contact" component={Contact} />
+        <Route path="/" component={Home} />
     </Switch>
 )
 

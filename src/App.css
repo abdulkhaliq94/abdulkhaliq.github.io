@@ -322,7 +322,6 @@ html {
 
 input[type=text]{
     border: 3px solid #555;
-    opacity: 0.5;
     padding: 18px;
     letter-spacing: 0.5px;
     border-radius: 100px;
@@ -336,7 +335,6 @@ input[type=text]:focus {
 
 input[type=email] {
     border: 3px solid #555;
-    opacity: 0.5;
     padding: 18px;
     letter-spacing: 1px;
     border-radius: 100px;
@@ -350,7 +348,6 @@ input[type=email]:focus {
 
 #message {
     border: 3px solid #555;
-    opacity: 0.5;
     padding: 18px;
     letter-spacing: 1px;
     border-radius: 30px;
