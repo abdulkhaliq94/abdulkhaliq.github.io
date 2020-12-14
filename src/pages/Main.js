@@ -5,14 +5,18 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 
-const Main = () => (
-    <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/Home" component={Home} />
-        <Route path="/About" component={About} />
-        <Route path="/Projects" component={Projects} />
-        <Route path="/Contact" component={Contact} />
-    </Switch>
-)
+function Main() {
+    return(
+        <>
+            <Switch>
+                <Route exact path="/"><Home /></Route>
+                <Route path="/home"><Home /></Route>
+                <Route path="/about"><About /></Route>
+                <Route path="/projects"><Projects /></Route>
+                <Route path="/contact"><Contact /></Route>
+            </Switch>
+        </>
+    )
+}
 
 export default Main;
