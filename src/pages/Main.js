@@ -9,10 +9,10 @@ function Main() {
     return(
         <>
             <Switch>
+                <Route path="/"><Home /></Route>
                 <Route path="/About"><About /></Route>
                 <Route path="/Projects"><Projects /></Route>
                 <Route path="/Contact"><Contact /></Route>
-                <Route path="/"><Home /></Route>
             </Switch>
         </>
     )
